@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function Navbar() {
+export default function Navbar() { 
   const links = ['home','about','works','contact']
   return (
     <nav className="bg-white/80 backdrop-blur sticky top-0 z-50 shadow-sm">
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="font-bold text-lg">Sivaprakash M</div>
+        <div className="font-bold text-lg">Sivaprakash M | Full Stack Developer</div>
         <ul className="hidden md:flex space-x-6 text-sm">
           {links.map(l => (
             <li key={l}>
