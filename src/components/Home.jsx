@@ -11,7 +11,7 @@ export default function Home() {
           </motion.h1>
           <p className="mt-4 text-gray-600">I build responsive web apps with React, Vue, and Laravel. I love crafting clean user interfaces and scalable backends.</p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <a href="/sivaprakash-portfolio/Siva_Resume.pdf" download className="bg-blue-600 text-white px-4 py-2 rounded shadow">Download Resume</a>
+            <a href="/siva-portfolio/Siva_Resume.pdf" download className="bg-blue-600 text-white px-4 py-2 rounded shadow">Download Resume</a>
             <a href="#works" className="border border-blue-600 text-blue-600 px-4 py-2 rounded">View Works</a>
           </div>
         </div>
